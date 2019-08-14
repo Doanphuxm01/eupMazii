@@ -1,0 +1,467 @@
+<html lang="en"><head>
+	<meta charset="UTF-8">
+	<title>Mazii</title>
+	<link rel="stylesheet" type="text/css" href="css/maziiHome.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700,700italic" async="" rel="stylesheet" type="text/css">
+	<link rel="icon" href="img/favicon.ico">
+</head>
+<body>
+	<div class="header" style="position: relative;margin: 0 !important;padding: 0 !important;height: 113px;">
+		<nav class="headerNav">
+			<div class="container-fluid">
+				<nav class="navHome">
+					<div class="navbar-collapse collapse">
+						<span class="logoWebSite">
+							<a href="#">
+								<img class="logoHome" src="img/mazii-logo.png" alt="not internet">
+							</a>
+						</span>
+						<ul id="navbar" class="nav navbar-collapse nav-status">
+							<li class="showLi colorLi1">
+								<a href="#" class="hoverBot">
+									<i class="fa fa-home fa-fw fa-lg"></i>
+									Tra cứu
+								</a>
+							</li>
+							<li class="Translate">
+								<a href="#">
+									<i class="fas fa-language"></i>
+									Dịch
+								</a></li>
+								<li class="Translate">
+									<a href="#">
+										<i class="fa fa-search-plus fa-fw fa-lg"></i>
+										JLPT
+									</a></li>
+									<li class="Translate">
+										<a href="#">
+											<i class="fas fa-star-half-alt"></i>
+											Từ Của tôi
+										</a></li>
+										<li class="Translate">
+											<a href="#">
+												<i class="fas fa-users"></i>
+												Cộng Đồng
+											</a> </li>
+											<li class="Translate">
+												<a href="#">
+													<i class="fas fa-share-alt"></i>
+													Từ Điển Mở
+												</a>
+												<span>
+													<img class="ic-web" src="img/ic_new2.png" alt="not internet">
+												</span>
+											</li>
+											<li style="position: absolute;" class="Translate login">
+												<a href="#">
+													Đăng nhập
+												</a></li>
+												<li style="position: absolute;" class="Translate logout">
+													<a class="borderLeft" href="#">Đăng ký</a>
+												</li>
+											</ul>
+										</div>
+									</nav>
+								</div>
+							</nav>
+							<div class="nav-botton">
+								<div class="float-left">
+									<ul class="textShow">
+										<li><a class="slow" href="#">Luyện đọc</a> </li>
+										<li><a href="#">Thi thử </a></li>
+										<li><a href="#">Nghe nhạc Nhật</a></li>
+									</ul>
+								</div>
+								<div class="float-right">
+									<ul class="ul-floatRight">
+										<li><a href="#"><i class="fab fa-apple fzt"></i></a></li>
+										<li><a href="#"><i class="fab fa-android fzt"></i></a></li>
+										<li><a href="#"><i class="fab fa-chrome fzt"></i></a></li>
+										<li><a href="#"><i class="fas fa-cog fzt"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="container-fluid">
+							<div style="background-color: #EEEEEE" class="row">
+								<div class="col-lg-9 col-md-12 col-xs-12">
+									<div class="showContent">
+										<div class="button btn-group search-option">
+											<button class="btn btn-default search-option-word tab-active btn btn-default btn-kill"><span>Từ vựng </span></button>
+											<button class="btn btn-default"> <span>Hán tự</span> </button>
+											<button class="btn btn-default"> <span>Nhật Anh</span> </button>
+											<button class="btn btn-default"><span>Câu</span> </button>
+											<button class="btn btn-default"><span>Ngữ pháp</span></button>
+											<button class="btn btn-default"><span>lịch sử</span> </button>
+										</div>
+										<div style="width: 100%;" class="search input-group input-group-lg search-box-range col-xs-12 col-md-8 col-no-padding">
+											<input class="inputShow form-control" placeholder="日本, nihon, Nhật Bản" type="text" name="input">
+											<div class="input-group-btn">
+												<button style="color: #fff;background-color: #0c57d3;border-color: #093d94;" type="button" class="btn btn-primary" id="search-button">
+												<span class="fa fa-search fa-lg"></span>
+												</button>
+											</div>
+										</div>
+									</div>
+									<div class="col-xs-12 col-md-12 col-xs-12 col-no-padding word-of-day ng-scope">
+										<div class="boxShow">
+											<p style="color: #505763;font-size: 16px;margin-bottom:4px;padding: 3px 0  3px 0 ;">Từ vựng trong ngày</p>
+										</div>
+										<div class="group-word row no-margin ng-scope">
+											<div class="col-md-6 col-sm-12 col-xs-12 box-word no-padding">
+												<div class="item-word">
+													<p class="d-word ng-binding">与える</p>
+													<p class="d-phonetic">あたえる</p>
+													<p class="d-mean">ảnh hưởng; sự ảnh hưởng; cái ảnh hưởng</p>
+													<i class="d-audio fa fa-volume-down fa-lg"></i>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-xs-12 col-md-12 col-xs-12 col-no-padding word-of-day ng-scope">
+										<div class="boxShow">
+											<p style="margin-bottom:4px;padding: 3px 0  3px 0 ;"></p>
+										</div>
+										<div class="group-word row no-margin ng-scope">
+											<div class="col-md-6 col-sm-12 col-xs-12 box-word no-padding">
+												<div class="item-word">
+													<p class="d-word ng-binding">与える</p>
+													<p class="d-phonetic">あたえる</p>
+													<p class="d-mean">ảnh hưởng; sự ảnh hưởng; cái ảnh hưởng</p>
+													<i class="d-audio fa fa-volume-down fa-lg"></i>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-xs-12 col-md-12 col-xs-12 col-no-padding word-of-day ng-scope">
+										<div class="boxShow">
+											<p style="margin-bottom:4px;padding: 3px 0  3px 0 ;"></p>
+										</div>
+										<div class="group-word row no-margin ng-scope">
+											<div class="col-md-6 col-sm-12 col-xs-12 box-word no-padding">
+												<div class="item-word">
+													<p class="d-word ng-binding">与える</p>
+													<p class="d-phonetic">あたえる</p>
+													<p class="d-mean">ảnh hưởng; sự ảnh hưởng; cái ảnh hưởng</p>
+													<i class="d-audio fa fa-volume-down fa-lg"></i>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-xs-12 col-md-12 col-xs-12 col-no-padding word-of-day ng-scope">
+										<div class="boxShow">
+											<p style="margin-bottom:4px;padding: 3px 0  3px 0 ;"></p>
+										</div>
+										<div class="group-word row no-margin ng-scope">
+											<div class="col-md-6 col-sm-12 col-xs-12 box-word no-padding">
+												<a style="margin:8px 0 8px 0 ;" class="d-phonetic">Học tiếng Nhật Qua Video </a>
+											</div>
+										</div>
+									</div>
+									<div class="col-xs-12 col-md-12 col-xs-12 col-no-padding word-of-day ng-scope">
+										<div class="row no-margin widget-container bg-book">
+											<div class="col-md-4 col-sm-6 col-xs-12 box-video ng-scope">
+												<a href="#">
+													<div class="img-video">
+														<img style="width: 100%;" src="img/hqdefault.jpg" alt="">
+													</div>
+													<div class="textVideo">
+														<p class="name-video ng-binding">365日の紙飛行機</p>
+														<p class="mean-video ng-binding">Máy bay giấy 365 ngày</p>
+														<p class="bottom-right">
+															<span class="level level2 ng-scope">TB</span>
+															<span class="view ng-binding">
+																<img class="ic-view" src="img/ic_view.png" alt="">
+																16573
+															</span>
+														</p>
+													</div>
+												</a>
+											</div>
+											<div class="col-md-4 col-sm-6 col-xs-12 box-video ng-scope">
+												<a href="#">
+													<div class="img-video">
+														<img style="width: 100%;" src="img/hqdefault.jpg" alt="">
+													</div>
+													<div class="textVideo">
+														<p class="name-video ng-binding">365日の紙飛行機</p>
+														<p class="mean-video ng-binding">Máy bay giấy 365 ngày</p>
+														<p class="bottom-right">
+															<span class="level level2 ng-scope">TB</span>
+															<span class="view ng-binding">
+																<img class="ic-view" src="img/ic_view.png" alt="">
+																16573
+															</span>
+														</p>
+													</div>
+												</a>
+											</div>
+											<div class="col-md-4 col-sm-6 col-xs-12 box-video ng-scope">
+												<a href="#">
+													<div class="img-video">
+														<img style="width: 100%;" src="img/hqdefault.jpg" alt="">
+													</div>
+													<div class="textVideo">
+														<p class="name-video ng-binding">365日の紙飛行機</p>
+														<p class="mean-video ng-binding">Máy bay giấy 365 ngày</p>
+														<p class="bottom-right">
+															<span class="level level2 ng-scope">TB</span>
+															<span class="view ng-binding">
+																<img class="ic-view" src="img/ic_view.png" alt="">
+																16573
+															</span>
+														</p>
+													</div>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								<div class="col-lg-3 col-md-12 col-xs-12" style="margin-top: 16px;">
+									<div class="box-intro-dict ng-scope">
+										<p class="txt-main">Phát triển "TỪ ĐIỂN MỞ" cùng Mazii ngay hôm nay!</p>
+										<div style="font-size: 14px;color: #474747;" class="box-content">
+											<p>Tham gia <a style="color: #474747;font-weight: 500;" href="#">TỪ ĐIỂN MỞ</a> không chỉ là cơ hội để bạn rèn luyện kỹ năng dịch mà còn giúp cộng đồng học tiếng Nhật có thêm nhiều từ vựng.</p>
+											<div style="text-align: right;" class="btn btn-default box-link">
+												<a class="txt-link" href="#">Tham gia</a>
+											</div>
+										</div>
+									</div>
+									<div class="box-notify-mean">
+										<div class="title">Hỏi và đáp</div>
+										<div class="main">
+											<div class="item-mean ng-scope">
+												<p>
+													<a  href="#"  class="ng-scope"> <span  class="ng-binding">【不明な質問。。。ごめんなさい】</span> </a>
+												</p></div><div class="item-mean ng-scope" >
+												<p>
+													<a   class="ng-scope"> <span  class="ng-binding">普通常識会話</span> </a>
+												</p>
+												<p class="user ng-binding">Lại Thùy Linhh đang hỏi
+												</p>
+											</div><div class="item-mean ng-scope">
+											<p>
+												<a  href="#"  class="ng-scope"> <span  class="ng-binding">皆さん 思いっきりの言葉がありますか。思い切りと同じ意味ですか。例えば 悲しいことは思いっきり泣いて忘れなさい。 意味は 。。。...</span> </a>
+											</p>
+											<p class="user ng-binding">クエン đang hỏi
+											</p>
+										</div><div class="item-mean ng-scope" >
+										<p>
+											<a  href="#"  class="ng-scope"> <span  class="ng-binding">Nhờ dịch</span> </a>
+										</p>
+										<p class="user ng-binding">Minh japan đang hỏi
+										</p>
+									</div><div class="item-mean ng-scope" >
+									<p>
+										<a ng-if="item.title" href="#"  class="ng-scope"> <span  class="ng-binding">Bị đồng nghiệp troll</span> </a>
+									</p>
+									<p class="user ng-binding">fan đang hỏi
+									</p>
+								</div><div class="item-mean ng-scope" >
+								<p>
+									<a ng-if="item.title" href="#"  class="ng-scope"> <span  class="ng-binding">Nhà bạn có người chết không?</span> </a>
+								</p>
+								<p class="user ng-binding">Draco đang hỏi
+								</p>
+							</div><div class="item-mean ng-scope" >
+							<p>
+								<a ng-if="item.title" href="#"  class="ng-scope"> <span  class="ng-binding">Mọi người cho mình hỏi ?</span> </a>
+							</p>
+							<p class="user ng-binding">nam nguyễn thanh đang hỏi
+							</p>
+						</div><div class="item-mean ng-scope" >
+						<p>
+							<a ng-if="item.title" href="#"  class="ng-scope"> <span  class="ng-binding">Nhờ các anh chị sửa giúp em câu này</span> </a>
+						</p>
+						<p class="user ng-binding">Tiểu bối đang hỏi
+						</p>
+					</div><div class="item-mean ng-scope" >
+					<p>
+						<a ng-if="item.title" href="#"  class="ng-scope"> <span  class="ng-binding">Mn cho mình hỏi câu: “Hãy làm việc trong im lặng để thành công c...</span> </a>
+						
+					</p>
+					<p class="user ng-binding">Bùi Hoàng Hiệp đang hỏi
+					</p>
+				</div><div class="item-mean ng-scope" >
+				<p>
+					<a ng-if="item.title" href="#"  class="ng-scope"> <span  class="ng-binding">don vi dem thung carton la gi ?</span> </a>
+				</p>
+				<p class="user ng-binding">pham vinh đang hỏi
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="box-notify-mean">
+		<div class="title">Các bạn đang góp ý</div>
+		<div class="main">
+			<div class="item-mean ng-scope" >
+				<p class="ng-binding">
+					<b class="mean">
+					<a class="ng-binding" href="#">仇</a>
+					</b> : con người  亻 mà 98 九 lòng dạ thì lắm kẻ thù 仇
+				</p>
+				<p ng-if="newMean.center == null || newMean.center == ''" class="user ng-scope"><span class="txt-go-user ng-binding" ng-click="goInforUser(newMean.userId, newMean.username)">Albert Ng</span> đã góp ý
+				<span class="user" title="2019-08-13T15:51:41.000Z">24 phút trước</span>
+			</p>
+		</div><div class="item-mean ng-scope" ng-repeat="newMean in listNewMean">
+		<p class="ng-binding">
+			<b class="mean">
+			<a ng-click="directToFeedback(newMean, $event)" ng-href="/#!/search?type=w&amp;query=議事録" class="ng-binding" href="/#!/search?type=w&amp;query=議事録">議事録</a>
+			</b> : Biên bản cuộc họp
+		</p>
+		<p ng-if="newMean.center == null || newMean.center == ''" class="user ng-scope"><span class="txt-go-user ng-binding" ng-click="goInforUser(newMean.userId, newMean.username)">truonghong0311</span> đã góp ý
+		<span class="user" title="2019-08-13T15:49:51.000Z">26 phút trước</span>
+	</p>
+</div><div class="item-mean ng-scope" ng-repeat="newMean in listNewMean">
+<p class="ng-binding">
+	<b class="mean">
+	<a ng-click="directToFeedback(newMean, $event)" ng-href="/#!/search?type=w&amp;query=リツイート" class="ng-binding" href="/#!/search?type=w&amp;query=リツイート">リツイート</a>
+	</b> : tweet
+</p>
+<p ng-if="newMean.center == null || newMean.center == ''" class="user ng-scope"><span class="txt-go-user ng-binding" ng-click="goInforUser(newMean.userId, newMean.username)">Sánh Bùi Hữu</span> đã góp ý
+<span class="user" title="2019-08-13T15:44:56.000Z">31 phút trước</span>
+</p>
+</div><div class="item-mean ng-scope" ng-repeat="newMean in listNewMean">
+<p class="ng-binding">
+<b class="mean">
+<a ng-click="directToFeedback(newMean, $event)" ng-href="/#!/search?type=w&amp;query=絡" class="ng-binding" href="/#!/search?type=w&amp;query=絡">絡</a>
+</b> : các sợi chỉ bị mắc với nhau
+</p>
+<p ng-if="newMean.center == null || newMean.center == ''" class="user ng-scope"><span class="txt-go-user ng-binding" ng-click="goInforUser(newMean.userId, newMean.username)">levanthanh88ksct</span> đã góp ý
+<span class="user" title="2019-08-13T15:38:31.000Z">37 phút trước</span>
+</p>
+</div><div class="item-mean ng-scope" ng-repeat="newMean in listNewMean">
+<p class="ng-binding">
+<b class="mean">
+<a ng-click="directToFeedback(newMean, $event)" ng-href="/#!/search?type=w&amp;query=逆" class="ng-binding" href="/#!/search?type=w&amp;query=逆">逆</a>
+</b> : đứa trẻ 屮  vừa chạy trên đường 辶  vừa há miệng cười 凵 thật là nghịch 逆 ngợm
+</p>
+<p ng-if="newMean.center == null || newMean.center == ''" class="user ng-scope"><span class="txt-go-user ng-binding" ng-click="goInforUser(newMean.userId, newMean.username)">Albert Ng</span> đã góp ý
+<span class="user" title="2019-08-13T15:33:19.000Z">42 phút trước</span>
+</p>
+</div><div class="item-mean ng-scope" ng-repeat="newMean in listNewMean">
+<p class="ng-binding">
+<b class="mean">
+<a ng-click="directToFeedback(newMean, $event)" ng-href="/#!/search?type=w&amp;query=切" class="ng-binding" href="/#!/search?type=w&amp;query=切">切</a>
+</b> : Thất lễ thì dùng đao cắt là cần thiết :))
+</p>
+<p ng-if="newMean.center == null || newMean.center == ''" class="user ng-scope"><span class="txt-go-user ng-binding" ng-click="goInforUser(newMean.userId, newMean.username)">Nhat Saker</span> đã góp ý
+<span class="user" title="2019-08-13T15:31:30.000Z">44 phút trước</span>
+</p>
+</div><div class="item-mean ng-scope" ng-repeat="newMean in listNewMean">
+<p class="ng-binding">
+<b class="mean">
+<a ng-click="directToFeedback(newMean, $event)" ng-href="/#!/search?type=w&amp;query=院" class="ng-binding" href="/#!/search?type=w&amp;query=院">院</a>
+</b> : 13 ngày 阝 ở trong ngôi nhà 宀 giúp ta khôi phục nguyên 元 khí chính là viện 院 bệnh viện
+</p>
+<p ng-if="newMean.center == null || newMean.center == ''" class="user ng-scope"><span class="txt-go-user ng-binding" ng-click="goInforUser(newMean.userId, newMean.username)">Trang Sunny</span> đã góp ý
+<span class="user" title="2019-08-13T15:31:30.000Z">44 phút trước</span>
+</p>
+</div><div class="item-mean ng-scope" ng-repeat="newMean in listNewMean">
+<p class="ng-binding">
+<b class="mean">
+<a ng-click="directToFeedback(newMean, $event)" ng-href="/#!/search?type=w&amp;query=天堂" class="ng-binding" href="/#!/search?type=w&amp;query=天堂">天堂</a>
+</b> : máy chơi game nintendou (任天堂)
+</p>
+<p ng-if="newMean.center == null || newMean.center == ''" class="user ng-scope"><span class="txt-go-user ng-binding" ng-click="goInforUser(newMean.userId, newMean.username)">hoaquyland</span> đã góp ý
+<span class="user" title="2019-08-13T15:31:17.000Z">44 phút trước</span>
+</p>
+</div><div class="item-mean ng-scope" ng-repeat="newMean in listNewMean">
+<p class="ng-binding">
+<b class="mean">
+<a ng-click="directToFeedback(newMean, $event)" ng-href="/#!/search?type=w&amp;query=言葉責め" class="ng-binding" href="/#!/search?type=w&amp;query=言葉責め">言葉責め</a>
+</b> : Dùng lời nói để tấn công
+</p>
+<p ng-if="newMean.center == null || newMean.center == ''" class="user ng-scope"><span class="txt-go-user ng-binding" ng-click="goInforUser(newMean.userId, newMean.username)">tranvubaoduy1996</span> đã góp ý
+<span class="user" title="2019-08-13T15:24:39.000Z">1 giờ trước</span>
+</p>
+</div><div class="item-mean ng-scope" ng-repeat="newMean in listNewMean">
+<p class="ng-binding">
+<b class="mean">
+<a ng-click="directToFeedback(newMean, $event)" ng-href="/#!/search?type=w&amp;query=ve sầu" class="ng-binding" href="/#!/search?type=w&amp;query=ve sầu">ve sầu</a>
+</b> : 蝉：せみ：ve sầu
+</p>
+<p ng-if="newMean.center == null || newMean.center == ''" class="user ng-scope"><span class="txt-go-user ng-binding" ng-click="goInforUser(newMean.userId, newMean.username)">Công Trịnh ICA</span> đã góp ý
+<span class="user" title="2019-08-13T15:18:54.000Z">1 giờ trước</span>
+</p>
+</div>
+</div>
+<div class="next">
+<a ng-click="nextSkip()" class="ng-binding">Xem tiếp</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="marketing">
+<div class="container-fluid row box-scale-footer" style="padding: 0 8px;margin: 0;">
+<div style="padding-top: 10px" class="scale scale-left col-md-4 col-sm-4 col-xs-12">
+<h4 class="mazii-dowload">Tải Mazii trên</h4>
+<a style="padding-right: 18px" class="paddingLeft" href="#" target="_blank">
+<span class="icon is-large">
+<i class="fab fa-apple fzt"></i>
+</span>
+</a>
+<a style="padding-right: 18px" href="#" target="_blank">
+<span class="icon is-large">
+<i class="fab fa-android fzt"></i>
+</span>
+</a>
+<a href="#" target="_blank">
+<span class="icon is-large">
+<i class="fab fa-chrome fzt"></i>
+</span>
+</a>
+<ul class="list-menu-footer custom1">
+<li>
+<a href="#" class="mazii-about">Về Mazii</a>
+</li>
+<li>
+<a href="#" class="mazii-help">Trợ giúp</a>
+</li>
+<li>
+<a href="#" class="mazii-term">Điều khoản sử dụng</a>
+</li>
+</ul>
+</div>
+<div style="padding-top: 10px" class="scale scale-center col-md-5 col-sm-5 col-xs-12">
+<h4>Sản phẩm khác</h4>
+<ul class="list-menu-footer">
+<li>
+<a href="#" target="_blank">Học từ vựng thông minh Minder</a>
+<p  class="other-product-desc">Giúp bạn ghi nhớ từ vựng hiệu quả</p>
+</li>
+<li>
+<a href="#" target="_blank">Pipop</a>
+<p class="other-product-desc">Học tiếng Nhật qua bài hát</p>
+</li>
+</ul>
+</div>
+<div style="padding-top: 10px" class="scale scale-right col-md-3 col-sm-3 col-xs-12">
+<ul class="list-menu-footer">
+<li>
+<a href="#" target="_blank">Japanese Voice</a>
+<p class="other-product-desc">Kho video tiếng Nhật kèm phụ đề</p>
+</li>
+<li>
+<a href="#" target="_blank">Easy Japanese</a>
+<p class="other-product-desc">Học tiếng Nhật qua đọc báo</p>
+</li>
+</ul>
+</div>
+<div class="container-fluid row box-scale-footer txt-small-footer col-md-12">
+<p>Giấy phép số: 67/GP-BTTTT do Bộ Thông tin và Truyền thông cấp ngày 02 tháng 02 năm 2018;</p>
+<p>Cơ quan chủ quản: Công ty TNHH Công nghệ EUP – Phòng 403, toà nhà số 01 ngõ 120, Trường Chinh, Phương Mai, Đống Đa, Hà Nội </p>
+<p>ĐT: 0973 385 204</p>
+<p>Người chịu trách nhiệm: Ông Nguyễn Văn Trình.</p>
+</div>
+</div>
+</div>
+
+</body></html>
